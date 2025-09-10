@@ -1,14 +1,18 @@
-❤️ Heart Disease Prediction Project
+# ❤️ Heart Disease Prediction Project
 
-Looking for a quick overview? Check the Short Version.
+🔗 Looking for a quick overview? Check the Short Version.
 
-📌 **Overview**
+---
+
+## 📌 Overview
 This project is a Machine Learning application that predicts the likelihood of heart disease using the UCI Heart Disease dataset.  
 It was developed as part of my AI & Machine Learning journey to practice building a full ML pipeline and deploying it with Gradio for real-time interaction.
 
 The workflow covers everything from data preprocessing and feature engineering, to model training, evaluation, optimization, and deployment with a lightweight user interface.
 
-🗂️ **Project Structure**
+---
+
+## 🗂️ Project Structure
 
 
 Heart_Disease_Project/
@@ -34,14 +38,18 @@ Heart_Disease_Project/
 │── .gitignore
 
 
-🛠️ **Technologies Used**
+---
+
+## 🛠️ Technologies Used
 - **Programming Language**: Python 3.9+
 - **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
 - **ML Workflow**: Data Preprocessing, PCA, Feature Selection, Supervised & Unsupervised Learning, Hyperparameter Tuning
 - **Deployment Tools**: Gradio (UI), Ngrok (for public access), GitHub
 - **Notebooks**: Jupyter Notebook
 
-🚀 **How to Run**
+---
+
+## 🚀 How to Run
 
 1️⃣ Clone the repository
 ```bash
@@ -62,11 +70,16 @@ python app.py
 
 4️⃣ (Optional) Deploy publicly with Ngrok
 Follow the steps inside deployment/ngrok_setup.txt
-ذ
 ```
-ذّ`
-👨‍💻 **Author**  
-Karim Khaled  
 
-🔗 [GitHub](https://github.com/Kvrimmmm)  
-🔗 [LinkedIn](https://www.linkedin.com/in/karim-khaled)  
+
+
+
+
+👨‍💻 Author
+
+Karim Khaled
+
+GitHub: [Kvrimmmmhttps://github.com/Kvrimmmm](https://github.com/Kvrimmmm)
+
+LinkedIn: [Karim Khaled](https://www.linkedin.com/in/karim-khaled-b17170329/)

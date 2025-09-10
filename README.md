@@ -1,52 +1,50 @@
 ❤️ Heart Disease Prediction Project
 
-🔗 Looking for a quick overview? Check the Short Version.
+Looking for a quick overview? Check the Short Version.
 
-📌 Overview
-This project is a Machine Learning application that predicts the likelihood of heart disease using the UCI Heart Disease dataset.
+📌 **Overview**
+This project is a Machine Learning application that predicts the likelihood of heart disease using the UCI Heart Disease dataset.  
 It was developed as part of my AI & Machine Learning journey to practice building a full ML pipeline and deploying it with Gradio for real-time interaction.
 
 The workflow covers everything from data preprocessing and feature engineering, to model training, evaluation, optimization, and deployment with a lightweight user interface.
 
-🗂️ Project Structure
+🗂️ **Project Structure**
+
+
 Heart_Disease_Project/
 │── data/
-│   └── heart_disease.csv                # Dataset
+│ └── heart_disease.csv # Dataset
 │── notebooks/
-│   ├── 01_data_preprocessing.ipynb      # Data cleaning & preprocessing
-│   ├── 02_pca_analysis.ipynb            # Dimensionality Reduction (PCA)
-│   ├── 03_feature_selection.ipynb       # Feature selection & importance
-│   ├── 04_supervised_learning.ipynb     # Logistic Regression, SVM, RF, etc.
-│   ├── 05_unsupervised_learning.ipynb   # K-Means & Hierarchical Clustering
-│   ├── 06_hyperparameter_tuning.ipynb   # GridSearchCV & RandomizedSearchCV
+│ ├── 01_data_preprocessing.ipynb # Data cleaning & preprocessing
+│ ├── 02_pca_analysis.ipynb # Dimensionality Reduction (PCA)
+│ ├── 03_feature_selection.ipynb # Feature selection & importance
+│ ├── 04_supervised_learning.ipynb # Logistic Regression, SVM, RF, etc.
+│ ├── 05_unsupervised_learning.ipynb # K-Means & Hierarchical Clustering
+│ ├── 06_hyperparameter_tuning.ipynb # GridSearchCV & RandomizedSearchCV
 │── models/
-│   └── final_model.pkl                  # Exported trained model
+│ └── final_model.pkl # Exported trained model
 │── ui/
-│   └── app.py                           # Gradio web application
+│ └── app.py # Gradio web application
 │── deployment/
-│   └── ngrok_setup.txt                  # Ngrok guide for deployment
+│ └── ngrok_setup.txt # Ngrok guide for deployment
 │── results/
-│   └── evaluation_metrics.txt           # Accuracy, precision, recall, F1, AUC
+│ └── evaluation_metrics.txt # Accuracy, precision, recall, F1, AUC
 │── README.md
 │── requirements.txt
 │── .gitignore
 
-🛠️ Technologies Used
 
-Programming Language: Python 3.9+
+🛠️ **Technologies Used**
+- **Programming Language**: Python 3.9+
+- **Libraries**: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
+- **ML Workflow**: Data Preprocessing, PCA, Feature Selection, Supervised & Unsupervised Learning, Hyperparameter Tuning
+- **Deployment Tools**: Gradio (UI), Ngrok (for public access), GitHub
+- **Notebooks**: Jupyter Notebook
 
-Libraries: Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn
-
-ML Workflow: Data Preprocessing, PCA, Feature Selection, Supervised & Unsupervised Learning, Hyperparameter Tuning
-
-Deployment Tools: Gradio (UI), Ngrok (for public access), GitHub
-
-Notebooks: Jupyter Notebook
-
-🚀 How to Run
+🚀 **How to Run**
 
 1️⃣ Clone the repository
-
+```bash
 git clone https://github.com/Kvrimmmm/Heart_Disease_Project.git
 cd Heart_Disease_Project
 
@@ -63,37 +61,12 @@ python app.py
 
 
 4️⃣ (Optional) Deploy publicly with Ngrok
-
 Follow the steps inside deployment/ngrok_setup.txt
+ذ
+```
+ذّ`
+👨‍💻 **Author**  
+Karim Khaled  
 
-📊 Results
-
-Models implemented: Logistic Regression, Decision Tree, Random Forest, SVM, KNN
-
-Unsupervised learning: K-Means & Hierarchical Clustering
-
-Best performing model achieved XX% accuracy (update with your actual result).
-
-Evaluation metrics (Accuracy, Precision, Recall, F1, AUC) are saved in results/evaluation_metrics.txt.
-
-🔮 Future Improvements
-
-Integrate Deep Learning models (ANN, CNN, etc.) for performance comparison.
-
-Use larger and more diverse datasets.
-
-Deploy permanently on cloud platforms like AWS / Heroku / Azure.
-
-Enhance UI with visual dashboards for EDA and predictions.
-
-📜 Certificate
-
-This project is part of my AI & Machine Learning practice and demonstrates end-to-end model development and deployment.
-
-👨‍💻 Author
-
-Karim Khaled
-
-GitHub: Kvrimmmm
-
-LinkedIn: Karim Khaled
+🔗 [GitHub](https://github.com/Kvrimmmm)  
+🔗 [LinkedIn](https://www.linkedin.com/in/karim-khaled)  
